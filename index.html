@@ -98,6 +98,25 @@
       </div>
     </section>
 
+    <h3>How many plastic cups did you throw away?</h3>
+
+<input type="number" id="myNumber" value="2">
+
+<p>Click the button to get impact on the environment.</p>
+
+<button onclick="myFunction()">Try it!</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var y = 3;
+    var x = document.getElementById("myNumber").value;
+    var z = Math.floor(x/y);
+    document.getElementById("demo").innerHTML = "You entagled "+z+" species of marine life.";
+}
+</script>
+
     <!-- What's the Impact? Section -->
     <section id="contact" class="content-section text-center">
       <div class="container">
